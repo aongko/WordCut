@@ -1,0 +1,15 @@
+C:\Users\Freddy\Documents\Visual Studio 2013\Projects\WordCut\WordCut\bin\Debug\ReverseMap\resources.pri
+C:\Users\Freddy\Documents\Visual Studio 2013\Projects\WordCut\WordCut\bin\Debug\AppxManifest.xml
+C:\Users\Freddy\Documents\Visual Studio 2013\Projects\WordCut\WordCut\bin\Debug\WordCut.build.appxrecipe
+C:\Users\Freddy\Documents\Visual Studio 2013\Projects\WordCut\WordCut\bld\Debug\priconfig.xml
+C:\Users\Freddy\Documents\Visual Studio 2013\Projects\WordCut\WordCut\bld\Debug\priconfig.xml.intermediate
+C:\Users\Freddy\Documents\Visual Studio 2013\Projects\WordCut\WordCut\bld\Debug\layout.resfiles
+C:\Users\Freddy\Documents\Visual Studio 2013\Projects\WordCut\WordCut\bld\Debug\layout.resfiles.intermediate
+C:\Users\Freddy\Documents\Visual Studio 2013\Projects\WordCut\WordCut\bld\Debug\resources.resfiles
+C:\Users\Freddy\Documents\Visual Studio 2013\Projects\WordCut\WordCut\bld\Debug\resources.resfiles.intermediate
+C:\Users\Freddy\Documents\Visual Studio 2013\Projects\WordCut\WordCut\bld\Debug\pri.resfiles
+C:\Users\Freddy\Documents\Visual Studio 2013\Projects\WordCut\WordCut\bld\Debug\pri.resfiles.intermediate
+C:\Users\Freddy\Documents\Visual Studio 2013\Projects\WordCut\WordCut\bld\Debug\qualifiers.txt
+C:\Users\Freddy\Documents\Visual Studio 2013\Projects\WordCut\WordCut\bld\Debug\qualifiers.txt.intermediate
+C:\Users\Freddy\Documents\Visual Studio 2013\Projects\WordCut\WordCut\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Freddy\Documents\Visual Studio 2013\Projects\WordCut\WordCut\bld\Debug\ProjectArchitectures.txt

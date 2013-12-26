@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="/js/speedRead.js"></script>
+</head>
+<body>
+    <div id="contentArea">
+        <br />
+        <div class="wrapper">
+            word/second : <input type="number" id="speed" maxlength="3"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label id="lblLength">You have <strong> 25000 </strong> chars left.</label>
+            <textarea rows="15" id="input" cols="200" onchange="availableLength()" maxlength="25000"></textarea>
+        </div>
+        <br />
+        <div><center><input type="button" id="process" value="Read!Now" maxlength="3" /></center></div>
+    </div>
+</body>
+</html>
