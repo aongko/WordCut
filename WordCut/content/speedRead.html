@@ -1,23 +1,15 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <script src="/js/speedRead.js"></script>
-</head>
-<body>
-    <div id="contentArea">
-        <div class="wrapper">
-            <div>
-                Speed : <input type="number" id="speed" maxlength="3" /> Words Per Minute (WPM)
-            </div>
-            <div>
-                <label>You have <strong><span id="charLeft">25000</span></strong> chars left.</label>
-            </div>
-            <div>
-                <textarea rows="15" id="input" cols="200" onchange="availableLength()" maxlength="25000"></textarea>
-            </div>
-        </div>
+﻿<script src="/js/speedRead.js"></script>
 
-        <div><center><input type="button" id="process" value="Read Now!" /></center></div>
+<div id="contentArea">
+    <div>
+        <div>
+            Speed : <input type="number" id="speed" maxlength="3" style="width: 50px" value="200" /> Words Per Minute (WPM)
+        </div>
+        <div style="width: 90%; margin: 10px auto;">
+            <div style="text-align: center">You have <strong><span id="charLeft">25000</span></strong> chars left.</div>
+            <textarea rows="15" id="input" onchange="availableLength()" maxlength="25000" style="width: 100%"></textarea>
+        </div>
     </div>
-</body>
-</html>
+
+    <div><center><input type="button" id="process" value="Read Now!" /></center></div>
+</div>

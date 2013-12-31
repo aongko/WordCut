@@ -1,25 +1,56 @@
 ﻿body {
+    
 }
 
 #header {
-    height: 10%;
+    
+}
+#header #top-menu {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid #FFFFFF;
+}
+#header #top-menu button {
+    margin-left: 5px;
+    border-bottom: 0;
+    padding: 5px 15px;
+}
+#header #top-menu button:first-child {
+    margin-left: 0;
+}
+
+#header #pageName {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-weight: bold;
 }
 
 #footer {
-    height:10px;
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid #FFFFFF;
+    margin-top: 25px;
+    padding: 10px 15px;
+    font-weight: bold;
 }
 
-#contentArea{
-    height:640px;
+#content {
+    height: 530px;
+    padding: 25px;
 }
 
+#contentArea {
+    
+}
 
-.wrapper {
+/*.wrapper {
     height: 70%;
-}
+    margin-left: 5%;
+}*/
 
 #input {
-    margin-left: 5%;
     padding: 10px 10px 10px 10px;
     width: 90%;
     height: 80%;
@@ -35,5 +66,5 @@
 }
 
 #speed {
-    margin-left: 5%;
+    
 }

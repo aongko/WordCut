@@ -17,21 +17,21 @@
     <AppXManifest Include="D:\workspace\WordCut\WordCut\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-12-27T04:34:54.625</Modified>
+      <Modified>2013-12-31T04:19:13.658</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\content\read.html">
       <PackagePath>content\read.html</PackagePath>
-      <Modified>2013-12-26T09:24:20.097</Modified>
+      <Modified>2013-12-31T05:01:38.421</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\content\speedRead.html">
       <PackagePath>content\speedRead.html</PackagePath>
-      <Modified>2013-12-27T04:33:06.815</Modified>
+      <Modified>2013-12-31T05:01:38.412</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\content\speedTest.html">
       <PackagePath>content\speedTest.html</PackagePath>
-      <Modified>2013-12-26T07:16:53.318</Modified>
+      <Modified>2013-12-31T05:01:38.401</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\default.html">
       <PackagePath>default.html</PackagePath>
@@ -39,11 +39,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\utils\footer.html">
       <PackagePath>utils\footer.html</PackagePath>
-      <Modified>2013-12-23T15:02:13.464</Modified>
+      <Modified>2013-12-31T04:18:59.937</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\utils\header.html">
       <PackagePath>utils\header.html</PackagePath>
-      <Modified>2013-12-26T01:36:06.284</Modified>
+      <Modified>2013-12-31T04:27:59.543</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\images\logo.scale-100.png">
       <PackagePath>images\logo.scale-100.png</PackagePath>
@@ -87,11 +87,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2013-12-26T10:15:34.694</Modified>
+      <Modified>2013-12-31T04:57:03.949</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-12-27T04:34:51.941</Modified>
+      <Modified>2013-12-31T04:19:10.455</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
