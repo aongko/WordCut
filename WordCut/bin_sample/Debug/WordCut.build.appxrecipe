@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PCAOW8</Machine>
+    <WindowsUser>Andrew Ongko</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>2571a642-7c08-47c6-9936-43e76f2bb561</PackageIdentityName>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\workspace\WordCut\WordCut\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\content\read.html">
+      <PackagePath>content\read.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\content\speedRead.html">
+      <PackagePath>content\speedRead.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\content\speedTest.html">
+      <PackagePath>content\speedTest.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\utils\footer.html">
+      <PackagePath>utils\footer.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\utils\header.html">
+      <PackagePath>utils\header.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\js\read.js">
+      <PackagePath>js\read.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\js\speedRead.js">
+      <PackagePath>js\speedRead.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\js\speedTest.js">
+      <PackagePath>js\speedTest.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\js\header.js">
+      <PackagePath>js\header.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.16408</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.16408</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

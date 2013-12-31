@@ -9,12 +9,12 @@ function availableLength() {
     var char = input.innerText.length;
     
     var rem = limit - char;
-    lblLength.innerHTML = "You have <strong>" + rem + "</strong> chars left.";
+    charLeft.innerHTML = rem;
     if (char >= 25000) {
-        lblLength.style.color = "#ff7777";
+        charLeft.style.color = "#ff7777";
     }
     else
-        lblLength.style.color = "white";
+        charLeft.style.color = "white";
     //if (char > limit) {
     //add code to either remove extra chars or highlight them.
     //}
