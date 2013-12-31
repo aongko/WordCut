@@ -16,10 +16,10 @@
 
 .wrapper {
     height: 70%;
+    margin-left: 5%;
 }
 
 #input {
-    margin-left: 5%;
     padding: 10px 10px 10px 10px;
     width: 90%;
     height: 80%;
