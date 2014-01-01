@@ -33,12 +33,14 @@ function availableLength() {
             }
             process.addEventListener("click", processRead, false);
             input.addEventListener("change", availableLength, false);
+            speed.value = WordCut.speed;
         }
     });
 
 
     function processRead() {
         WordCut.input = input.innerText;
+        WordCut.speed = 60000/speed.value;
         WinJS.Navigation.navigate("/content/read.html");
         var pageName = document.getElementById("pageName");
     }

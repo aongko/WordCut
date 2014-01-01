@@ -5,24 +5,26 @@
 ////
 //// Copyright (c) Microsoft Corporation. All rights reserved
 
+//Global so we can access it anywhere
+
 (function () {
     "use strict";
     var pageName = document.getElementById("pageName");
+    var intervalID = null;
+    var splittedString = null;
+    var index = 0;
 
     var page = WinJS.UI.Pages.define("/content/read.html", {
         ready: function (element, options) {
             if (pageName.innerHTML != "Read Leisurely") {
                 contentArea.style.opacity = "0";
-                runEnterContentAnimation();
+                runEnterContentAnimation(); //ANIMATION FUNCTION called
             }
-            read();
+            initRead(); //first function called
         }
     });
 
-    function read() {
-        lblRead.innerHTML = WordCut.input;
-    }
-
+    //ANIMATION
     function runEnterContentAnimation() {
 
         content.style.overflow = "hidden";
@@ -36,4 +38,54 @@
             });
         pageName.innerHTML = "Read Leisurely";
     }
+
+    //When finish read
+    function END()
+    {
+        WordCut.speed = 100;
+        readController.innerHTML = "Back";
+        clearInterval(intervalID);
+    }
+
+    //this is first function
+    function initRead() {
+        lblRead.innerHTML = "Processing...";
+        WordCut.input = "Ready Ready Ready 3 3 3 2 2 2 1 1 1 "+ WordCut.input.replace(/(\r\n|\n|\r)/gm, " ") + " Finish";
+        splittedString = WordCut.input.split(" ");
+        readController.addEventListener("click", readFuncCont, false);
+        
+        index = 0;
+        intervalID = setInterval(function () {
+            lblRead.innerHTML = splittedString[index++];
+            if (index === splittedString.length) {
+                END();
+            }
+        }, WordCut.speed);
+    }
+
+    //onclick function
+    function readFuncCont() {
+        if (readController.innerHTML == "Back") {
+            WinJS.Navigation.navigate("/content/speedRead.html");
+            var pageName = document.getElementById("pageName");
+            pageName.innerHTML = "Speed Read";
+            return;
+        }
+        if (readController.innerHTML == "Resume") {
+            intervalID = setInterval(function () {
+                lblRead.innerHTML = splittedString[index++];
+                if (index === splittedString.length) {
+                    END();
+                }
+            }, WordCut.speed);
+            readController.innerHTML = "Pause";
+            return;
+        }
+        if (readController.innerHTML == "Pause") {
+            clearInterval(intervalID);
+            readController.innerHTML = "Resume";
+            return;
+        }
+    }
+
 })();

@@ -28,7 +28,8 @@
 
     WinJS.Namespace.define("WordCut", {
         Title: "WordCut",
-        input: null
+        input: null,
+        speed: 100
     });
 
     WinJS.Application.addEventListener("activated", activated, false);
