@@ -1,8 +1,8 @@
-﻿function speedTest() {
+﻿function speedHelp() {
     "use strict";
-    WinJS.Navigation.navigate("/content/speedTest.html");
+    WinJS.Navigation.navigate("/content/speedHelp.html");
     var pageName = document.getElementById("pageName");
-    pageName.innerHTML = "Speed Test";
+    pageName.innerHTML = "(?)";
 }
 
 function speedRead() {

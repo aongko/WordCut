@@ -9,9 +9,9 @@
     "use strict";
     var pageName = document.getElementById("pageName");
 
-    var page = WinJS.UI.Pages.define("/content/speedTest.html", {
+    var page = WinJS.UI.Pages.define("/content/speedHelp.html", {
         ready: function (element, options) {
-            if (pageName.innerHTML != "Speed Test") {
+            if (pageName.innerHTML != "Help") {
                 contentArea.style.opacity = "0";
                 runEnterContentAnimation();
             }
@@ -27,7 +27,7 @@
             // Use the recommended offset by leaving the offset argument empty to get the best performance
             WinJS.UI.Animation.enterContent(contentArea, null).done(
                 function () {
-                    content.style.overflow = "auto";
+                    content.style.overflow = "horizontal";
                 });
     }
 })();
