@@ -88,7 +88,7 @@ function availableLength() {
         }
         else if(input.innerText.length <= 0) {
             msg = new Windows.UI.Popups.MessageDialog(
-            "There is no text for read");
+            "There is no text to read");
         }
 
         if (msg == null)

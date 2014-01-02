@@ -51,6 +51,8 @@
     <DefaultLanguage>en-US</DefaultLanguage>
     <PackageCertificateKeyFile>WordCut_TemporaryKey.pfx</PackageCertificateKeyFile>
     <PackageCertificateThumbprint>BC32A9125DD61B67E2DA451A36F24E2385634820</PackageCertificateThumbprint>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <AppxBundlePlatforms>neutral</AppxBundlePlatforms>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="package.appxmanifest">

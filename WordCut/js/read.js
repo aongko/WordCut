@@ -41,7 +41,7 @@ function END() {
         // Use the recommended offset by leaving the offset argument empty to get the best performance
         WinJS.UI.Animation.enterContent(contentArea, null).done(
             function () {
-                content.style.overflow = "auto";
+                content.style.overflow = "hidden";
             });
         pageName.innerHTML = "Read Leisurely";
     }
