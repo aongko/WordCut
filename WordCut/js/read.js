@@ -7,10 +7,17 @@
 
 //Global so we can access it anywhere
 
+var intervalID = null;
+//When finish read
+function END() {
+    WordCut.speed = 100;
+    readController.innerHTML = "Back";
+    clearInterval(intervalID);
+}
+
 (function () {
     "use strict";
     var pageName = document.getElementById("pageName");
-    var intervalID = null;
     var splittedString = null;
     var index = 0;
 
@@ -39,13 +46,6 @@
         pageName.innerHTML = "Read Leisurely";
     }
 
-    //When finish read
-    function END()
-    {
-        WordCut.speed = 100;
-        readController.innerHTML = "Back";
-        clearInterval(intervalID);
-    }
 
     //this is first function
     function initRead() {
