@@ -33,7 +33,6 @@ function availableLength() {
                 contentArea.style.opacity = "0";
                 runEnterContentAnimation();
             }
-            readLocalFile();
             process.addEventListener("click", processRead, false);
             input.addEventListener("change", OnchangedInput, false);
             speed.value = WordCut.speed;
