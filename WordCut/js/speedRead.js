@@ -68,22 +68,40 @@ function availableLength() {
     }
 
     function processRead() {
-        WordCut.input = input.innerText;
-        WordCut.speed = 60000/speed.value;
-        WinJS.Navigation.navigate("/content/read.html");
-        var pageName = document.getElementById("pageName");
+        var msg = null;
+        if (speed.value <= 0) {
+            msg = new Windows.UI.Popups.MessageDialog(
+            "Speed must be filled with positive integer");
+        }
+        else if(input.innerText.length <= 0) {
+            msg = new Windows.UI.Popups.MessageDialog(
+            "There is no text for read");
+        }
+
+        if (msg == null)
+        {
+            WordCut.input = input.innerText;
+            WordCut.speed = 60000 / speed.value;
+            WinJS.Navigation.navigate("/content/read.html");
+            var pageName = document.getElementById("pageName");
+        }
+        else{
+        msg.defaultCommandIndex = 0;
+        msg.cancelCommandIndex = 1;
+        msg.showAsync();
     }
+}
 
-    function runEnterContentAnimation() {
+function runEnterContentAnimation() {
 
-        content.style.overflow = "hidden";
+    content.style.overflow = "hidden";
 
-        // Run the enterContent animation
-        // The animation will cause opacity to transition to 1
-        // Use the recommended offset by leaving the offset argument empty to get the best performance
-        WinJS.UI.Animation.enterContent(contentArea, null).done(
-            function () {
-                content.style.overflow = "auto";
-            });
-    }
+    // Run the enterContent animation
+    // The animation will cause opacity to transition to 1
+    // Use the recommended offset by leaving the offset argument empty to get the best performance
+    WinJS.UI.Animation.enterContent(contentArea, null).done(
+        function () {
+            content.style.overflow = "auto";
+        });
+}
 })();
