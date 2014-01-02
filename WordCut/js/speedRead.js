@@ -26,6 +26,7 @@ function availableLength() {
     var pageName = document.getElementById("pageName");
     var applicationData = Windows.Storage.ApplicationData.current;
     var localFolder = applicationData.localFolder;
+    var localSettings = applicationData.localSettings;
 
     var page = WinJS.UI.Pages.define("/content/speedRead.html", {
         ready: function (element, options) {
@@ -36,7 +37,19 @@ function availableLength() {
             readLocalFile();
             process.addEventListener("click", processRead, false);
             input.addEventListener("change", OnchangedInput, false);
-            speed.value = WordCut.speed;
+
+            // Simple setting
+
+            var value = localSettings.values["localSpeedSettings"];
+
+            if (!value) {
+                // No data
+                speed.value = WordCut.speed;
+            }
+            else {
+                // Access data in value
+                speed.value = value;
+            }
         }
     });
 
@@ -80,6 +93,7 @@ function availableLength() {
 
         if (msg == null)
         {
+            localSettings.values["localSpeedSettings"] = speed.value;
             WordCut.input = input.innerText;
             WordCut.speed = 60000 / speed.value;
             WinJS.Navigation.navigate("/content/read.html");
