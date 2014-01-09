@@ -49,8 +49,8 @@
     <RequiredPlatformVersion>8.1</RequiredPlatformVersion>
     <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
-    <PackageCertificateKeyFile>WordCut_TemporaryKey.pfx</PackageCertificateKeyFile>
-    <PackageCertificateThumbprint>BC32A9125DD61B67E2DA451A36F24E2385634820</PackageCertificateThumbprint>
+    <PackageCertificateKeyFile>WordCut_StoreKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateThumbprint>B267BD596E99DB48B6C3D241A047806C2763BED3</PackageCertificateThumbprint>
     <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
     <AppxBundlePlatforms>neutral</AppxBundlePlatforms>
   </PropertyGroup>
@@ -105,6 +105,8 @@
     <Content Include="js\speedRead.js" />
     <Content Include="js\speedHelp.js" />
     <Content Include="js\header.js" />
+    <None Include="WordCut_StoreKey.pfx" />
+    <None Include="Package.StoreAssociation.xml" />
     <Content Include="utils\footer.html" />
     <Content Include="utils\header.html" />
     <None Include="WordCut_TemporaryKey.pfx" />

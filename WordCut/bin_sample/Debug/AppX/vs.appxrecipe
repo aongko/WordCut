@@ -6,92 +6,250 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>2571a642-7c08-47c6-9936-43e76f2bb561</PackageIdentityName>
-    <RegisteredManifestChecksum>01B9A4EF5C1B6B3D43F3FC9B6C752601FCDEBE6149A621A004F12F567D37710A</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>2571a642-7c08-47c6-9936-43e76f2bb561_1.0.0.0_neutral__c3410nzrdwbqr</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>2571a642-7c08-47c6-9936-43e76f2bb561_c3410nzrdwbqr!App</RegisteredUserModeAppID>
+    <RegisteredManifestChecksum>8A61E19B5D275B2D5E3899D8A029C49637277C13D205E1B50F5964DB88B7DA20</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>2571a642-7c08-47c6-9936-43e76f2bb561_1.0.0.0_neutral__czhwq7jz3ddf4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>2571a642-7c08-47c6-9936-43e76f2bb561_czhwq7jz3ddf4!App</RegisteredUserModeAppID>
     <RegisteredPackageID>2571a642-7c08-47c6-9936-43e76f2bb561</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=Freddy</RegisteredPackagePublisher>
+    <RegisteredPackagePublisher>CN=AntiKP</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\workspace\WordCut\WordCut\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-12-31T04:19:13.658</Modified>
+      <Modified>2014-01-02T11:18:48.009</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\content\read.html">
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\content\read.html">
       <PackagePath>content\read.html</PackagePath>
-      <Modified>2013-12-31T05:01:38.421</Modified>
+      <Modified>2014-01-02T10:35:29.006</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\content\speedRead.html">
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\content\speedRead.html">
       <PackagePath>content\speedRead.html</PackagePath>
-      <Modified>2013-12-31T05:01:38.412</Modified>
+      <Modified>2014-01-02T10:33:54.012</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\content\speedTest.html">
-      <PackagePath>content\speedTest.html</PackagePath>
-      <Modified>2013-12-31T05:01:38.401</Modified>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\content\speedHelp.html">
+      <PackagePath>content\speedHelp.html</PackagePath>
+      <Modified>2014-01-02T08:09:42.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\default.html">
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\default.html">
       <PackagePath>default.html</PackagePath>
       <Modified>2013-12-26T07:39:08.901</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\utils\footer.html">
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\utils\footer.html">
       <PackagePath>utils\footer.html</PackagePath>
-      <Modified>2013-12-31T04:18:59.937</Modified>
+      <Modified>2014-01-02T08:09:42.486</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\utils\header.html">
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\utils\header.html">
       <PackagePath>utils\header.html</PackagePath>
-      <Modified>2013-12-31T04:27:59.543</Modified>
+      <Modified>2014-01-02T02:23:56.088</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\images\logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\BadgeLogo.scale-100.png">
+      <PackagePath>images\BadgeLogo.scale-100.png</PackagePath>
+      <Modified>2014-01-02T09:24:51.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\BadgeLogo.scale-140.png">
+      <PackagePath>images\BadgeLogo.scale-140.png</PackagePath>
+      <Modified>2014-01-02T09:37:18.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\BadgeLogo.scale-180.png">
+      <PackagePath>images\BadgeLogo.scale-180.png</PackagePath>
+      <Modified>2014-01-02T09:37:29.883</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\Help1.png">
+      <PackagePath>images\Help1.png</PackagePath>
+      <Modified>2014-01-02T08:09:42.321</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\Help2.png">
+      <PackagePath>images\Help2.png</PackagePath>
+      <Modified>2014-01-02T08:09:42.323</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\Help3.png">
+      <PackagePath>images\Help3.png</PackagePath>
+      <Modified>2014-01-02T08:09:42.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\Help4.png">
+      <PackagePath>images\Help4.png</PackagePath>
+      <Modified>2014-01-02T08:09:42.347</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\logo.scale-100.png">
       <PackagePath>images\logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-21T14:19:32.000</Modified>
+      <Modified>2014-01-02T08:51:32.176</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\images\smalllogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\logo.scale-140.png">
+      <PackagePath>images\logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-02T09:20:06.644</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\logo.scale-180.png">
+      <PackagePath>images\logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-02T09:20:31.046</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\logo.scale-80.png">
+      <PackagePath>images\logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-02T09:20:51.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\smalllogo.scale-100.png">
       <PackagePath>images\smalllogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-21T14:19:32.000</Modified>
+      <Modified>2014-01-02T08:59:40.887</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\images\splashscreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\smalllogo.scale-140.png">
+      <PackagePath>images\smalllogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-02T09:24:17.710</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\smalllogo.scale-180.png">
+      <PackagePath>images\smalllogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-02T09:24:39.164</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\smalllogo.scale-80.png">
+      <PackagePath>images\smalllogo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-02T09:24:51.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\smalllogo.targetsize-16.png">
+      <PackagePath>images\smalllogo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-02T09:03:28.243</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\smalllogo.targetsize-256.png">
+      <PackagePath>images\smalllogo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-02T09:01:56.344</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\smalllogo.targetsize-32.png">
+      <PackagePath>images\smalllogo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-02T09:03:09.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\smalllogo.targetsize-48.png">
+      <PackagePath>images\smalllogo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-02T09:02:46.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\splashscreen.scale-100.png">
       <PackagePath>images\splashscreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-21T14:19:32.000</Modified>
+      <Modified>2014-01-02T09:42:31.203</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\images\storelogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\splashscreen.scale-140.png">
+      <PackagePath>images\splashscreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-02T09:42:46.255</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\splashscreen.scale-180.png">
+      <PackagePath>images\splashscreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-02T09:43:02.608</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-02T08:56:35.369</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\Square310x310Logo.scale-140.png">
+      <PackagePath>images\Square310x310Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-02T09:22:04.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\Square310x310Logo.scale-180.png">
+      <PackagePath>images\Square310x310Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-02T09:22:21.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\Square310x310Logo.scale-80.png">
+      <PackagePath>images\Square310x310Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-02T09:22:35.718</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-02T08:45:19.467</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\Square70x70Logo.scale-140.png">
+      <PackagePath>images\Square70x70Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-02T09:16:18.503</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\Square70x70Logo.scale-180.png">
+      <PackagePath>images\Square70x70Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-02T09:16:55.257</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\Square70x70Logo.scale-80.png">
+      <PackagePath>images\Square70x70Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-02T09:17:27.707</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\storelogo.scale-100.png">
       <PackagePath>images\storelogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-21T14:19:32.000</Modified>
+      <Modified>2014-01-02T09:26:28.528</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\js\default.js">
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\storelogo.scale-140.png">
+      <PackagePath>images\storelogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-02T09:26:11.149</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\storelogo.scale-180.png">
+      <PackagePath>images\storelogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-02T09:25:47.619</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-02T08:53:24.898</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\Wide310x150Logo.scale-140.png">
+      <PackagePath>images\Wide310x150Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-02T09:31:11.667</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\Wide310x150Logo.scale-180.png">
+      <PackagePath>images\Wide310x150Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-02T09:31:26.968</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\images\Wide310x150Logo.scale-80.png">
+      <PackagePath>images\Wide310x150Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-02T09:30:51.863</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2013-12-26T09:12:01.579</Modified>
+      <Modified>2014-01-02T02:23:56.022</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\js\read.js">
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\js\read.js">
       <PackagePath>js\read.js</PackagePath>
-      <Modified>2013-12-26T09:17:48.869</Modified>
+      <Modified>2014-01-02T10:36:31.275</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\js\speedRead.js">
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\js\speedRead.js">
       <PackagePath>js\speedRead.js</PackagePath>
-      <Modified>2013-12-27T04:34:40.280</Modified>
+      <Modified>2014-01-02T10:37:20.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\js\speedTest.js">
-      <PackagePath>js\speedTest.js</PackagePath>
-      <Modified>2013-12-26T07:15:53.065</Modified>
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\js\speedHelp.js">
+      <PackagePath>js\speedHelp.js</PackagePath>
+      <Modified>2014-01-02T02:23:56.068</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\js\header.js">
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\js\header.js">
       <PackagePath>js\header.js</PackagePath>
-      <Modified>2013-12-26T01:34:57.643</Modified>
+      <Modified>2014-01-02T08:09:42.354</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\css\default.css">
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2013-12-31T04:57:03.949</Modified>
+      <Modified>2014-01-02T08:09:42.290</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\workspace\WordCut\WordCut\bin\Debug\ReverseMap\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Andrew Ongko\Downloads\WordCut\WordCut\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-12-31T04:19:10.455</Modified>
+      <Modified>2014-01-02T11:18:46.344</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

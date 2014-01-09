@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
-  <Identity Name="2571a642-7c08-47c6-9936-43e76f2bb561" Version="1.0.0.0" Publisher="CN=AntiKP" />
+  <Identity Name="BinusMediaPublishing.WordCut" Version="1.0.0.1" Publisher="CN=FB66BD5B-F826-4FE4-A1C6-3812B2B60AF3" />
   <Properties>
     <DisplayName>WordCut</DisplayName>
-    <PublisherDisplayName>AntiKP</PublisherDisplayName>
+    <PublisherDisplayName>PT Widia Inovasi Nusantara</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
   <Prerequisites>
@@ -30,7 +30,4 @@
       </m2:VisualElements>
     </Application>
   </Applications>
-  <Capabilities>
-    <Capability Name="internetClient" />
-  </Capabilities>
 </Package>
